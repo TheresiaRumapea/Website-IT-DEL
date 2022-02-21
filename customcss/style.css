@@ -1,0 +1,493 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin-top: 85px;
+}
+
+a {
+  text-decoration: underline !;
+}
+
+hr {
+  opacity: 1;
+}
+
+/* START OF STYLE NAVBAR */
+.navbar img {
+  width: 65px;
+}
+
+.navbar {
+  background-color: #03045e;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+}
+.navbar ul li a:hover {
+  color: #666b58;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar .nav-link {
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar .nav-link:hover {
+  border-bottom: 1px solid #666b58;
+}
+
+.navbar-toggler {
+  background-color: #fff !important;
+}
+
+/* END OF STYLE NAVBAR */
+
+/* START OF SLIDER*/
+.slider-caption {
+  background-color: rgb(0, 0, 0, 0.7);
+  border-radius: 60px 0 60px 0;
+  position: absolute;
+  top: -327px;
+}
+
+.slider {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+/* END OF SLIDER */
+
+/* START OF KAPRODI */
+.jabatan {
+  border-left: 5px solid #03045e;
+}
+
+ul li {
+  list-style: none;
+}
+
+.kaprodi hr {
+  border-bottom: 5px solid #03045e;
+}
+
+/* END OF KAPRODI */
+
+/* The start of Tentnag Himasti */
+.container {
+  font-family: "Roboto", sans-serif;
+}
+
+.col-md-5 img {
+  width: 100%;
+  height: 300px;
+}
+
+.img-fluid {
+  max-width: 100%;
+}
+
+#content-tentang {
+  margin-right: 0;
+}
+
+#content-tentang h2 {
+  color: #03045e;
+  font-weight: bold;
+}
+
+.btn {
+  border-radius: 30px;
+  background-color: #03045e;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* The end of Tentang Himasti */
+/* NewsLetter Style */
+#news .card {
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border: none;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+#news .card:hover {
+  transform: scale(1.03);
+}
+
+#news .card h5 {
+  font-size: 19px;
+  font-weight: bold;
+  color: #0077b6;
+}
+
+#news .card p {
+  font-size: 14px;
+}
+
+#news .card .baca {
+  font-size: 12px;
+  color: #03045e;
+  margin-top: -10px;
+}
+
+#news .card .date {
+  font-size: 12px;
+  color: #656565;
+}
+
+#news .newsletter-header {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #03045e;
+  color: #fff;
+  /* font-weight: bold; */
+}
+
+#news .newsletter-text {
+  line-height: 25px;
+  text-align: justify;
+}
+
+#news .btn-subscribe {
+  background-color: #90e0ef;
+  border: none;
+  color: #000;
+}
+
+/* The End of NewsLetter Style */
+
+/* START OF STATUS */
+.astatus .material-icons {
+  font-size: 60px;
+  color: #03045e;
+}
+
+.astatus {
+  filter: drop-shadow(0 0 50px #34358a);
+  margin-bottom: 60px;
+  transition: all 0.3s;
+}
+
+.astatus:hover {
+  transform: scale(1.05);
+}
+
+/* END OF STATUS */
+
+/* Lecturer Style */
+
+.dosen-title {
+  font-weight: bold;
+  /* color: #0077b6; */
+  color: #03045e;
+}
+
+#lecturer .card {
+  border: none;
+}
+
+#lecturer .card h5 {
+  font-weight: bold;
+  color: #0077b6;
+}
+
+#lecturer .card .lecturer-img {
+  filter: drop-shadow(0 0 17px #bfbfeb);
+  overflow: auto;
+  transition: all 0.3s;
+}
+
+#lecturer .card .lecturer-img:hover {
+  transform: scale(1.05);
+}
+
+/* The End Of Lecturer Style */
+
+/* The Start of Testimonial */
+.testimonial-slider .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 100%;
+}
+
+.testimonial-slider {
+  padding: 10px 0px 40px;
+  background-color: #03045e;
+}
+
+.img-responsive {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: 5px rgb(167, 153, 153) solid;
+}
+
+figure {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+figcaption {
+  color: #4099c8;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+/* The End of Testimonial */
+
+/* The Start Of Join */
+.join {
+  background-color: #0077b6;
+  color: #fff;
+}
+
+.join button {
+  background-color: #03045e;
+  filter: drop-shadow(3px 3px 8px #fff);
+}
+
+/* The End Of Join */
+
+/* START OF FOOTER */
+.footer {
+  background-color: #03045e;
+  color: #fff;
+}
+
+.footer .container {
+  flex-wrap: wrap;
+}
+
+.footer p {
+  font-size: 15px;
+  font-weight: li;
+}
+
+.icon-sosial-media .bx {
+  font-size: 60px;
+  transition: all 0.4s;
+}
+
+.icon-sosial-media .bx:hover {
+  font-size: 61px;
+  color: rgb(150, 150, 150);
+}
+
+.footer-copyright {
+  background-color: #003e5f;
+  font-weight: lighter;
+}
+
+/* END OF FOOTER */
+
+/* prestasi.html */
+/* Jumbotron Prestasi */
+#prestasi-jumbotron {
+  height: 600px;
+  background-image: url(../img/prestasi/wisuda.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#prestasi-jumbotron h1 {
+  position: relative;
+  top: 180px;
+  padding: 20px;
+  /* background-color: #0077B6; */
+  border-radius: 20px 20px 0 0;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 5rem;
+}
+
+/* End of Jumbotron Prestasi */
+
+/* Table Prestasi */
+#table-prestasi .card {
+  top: -200px;
+  border-radius: 20px;
+  box-shadow: 0 0 47px rgba(0, 0, 0, 0.5);
+  margin-bottom: -200px;
+}
+
+/* STRUKTOR ORGANISASI */
+#struktur-jumbotron {
+  height: 600px;
+  background-image: url(../img/prestasi/wisuda.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#struktur-jumbotron h1 {
+  position: relative;
+  top: 180px;
+  padding: 20px;
+  /* background-color: #0077B6; */
+  border-radius: 20px 20px 0 0;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 5rem;
+}
+
+/* END OF STRUKTUR ORGANISASI */
+
+/* The start of kegiatan Himasti */
+
+#container-kegiatan {
+  margin-top: 170px;
+  /* border: black solid 2px; */
+}
+
+#side-navbar .active {
+  background-color: #1c819d;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+#side-nav {
+  padding: 1rem;
+  margin-top: 10px;
+}
+
+.non-active {
+  background-color: #fff;
+}
+
+#side-navbar {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+#side-navbar a {
+  color: #fff;
+  width: 100%;
+}
+
+.rounded-start {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.kegiatan-card {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-sel,
+.pend {
+  text-align: center;
+  cursor: pointer;
+}
+
+.pend {
+  border-radius: 2px;
+  padding: 3px 10px 3px 10px;
+  font-size: 12px;
+  background-color: #9e7bff;
+  text-transform: capitalize;
+  color: white;
+  margin: 0px;
+  width: fit-content;
+}
+
+.desc {
+  margin-top: 3px;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+#judul-kegiatan {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1c819d;
+  border-bottom: 1px solid #ffbe00;
+  margin-bottom: 0;
+}
+
+.btn-sel {
+  background-color: #90e0ef;
+  width: fit-content;
+  margin-top: -15px;
+  color: #1c819d;
+  font-size: 10px;
+  padding: 3px 10px 3px 10px;
+}
+
+.search {
+  margin-bottom: 2rem;
+}
+
+/* The end of Kegiatan Himasti */
+
+/* The Start Of Visi Misi */
+.visimisi h1 {
+  color: #03045e;
+}
+
+.visimisi hr {
+  border-bottom: 5px solid #03045e;
+}
+
+.visimisi .material-icons {
+  font-size: 180px;
+  color: #003e5f;
+}
+
+.visimisi h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #003e5f;
+}
+
+.visimisi p,
+.visimisi ol li {
+  font-size: 23px;
+}
+
+.visimisi p {
+  font-style: italic;
+}
+
+.visimisi .bottom-visi {
+  width: 240px;
+}
+
+.visimisi .bottom-misi {
+  width: 270px;
+}
+
+#visimisi-jumbotron {
+  height: 600px;
+  background-image: url(../img/prestasi/wisuda.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#visimisi-jumbotron h1 {
+  position: relative;
+  top: 180px;
+  padding: 20px;
+  border-radius: 20px 20px 0 0;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 5rem;
+}
+#visimisi .card {
+  top: -200px;
+  border-radius: 20px;
+  box-shadow: 0 0 47px rgba(0, 0, 0, 0.5);
+  margin-bottom: -200px;
+  padding: 35px;
+}
+
+/* The End Of Visi Misi */

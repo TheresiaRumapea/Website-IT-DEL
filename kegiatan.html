@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="customcss/style.css">
+   
+    <!-- LINK UNTUK ICON -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+ 
+	<!-- Roboto Google Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Kegiatan Himasti - Informatika IT Del</title>
+</head>
+
+    <!-- The Start of Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><img src="img/LogoHimasti.png" alt="logo himasti" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+              <li class="nav-item me-3">
+                <a class="nav-link text-white" aria-current="page" href="index.html">Beranda</a>
+              </li>
+              <li class="nav-item dropdown me-3">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Tentang Kita </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="visimisi.html">Visi Misi</a></li>
+                  <li><a class="dropdown-item" href="struktur_organisasi.html">Struktur Organisasi</a></li>
+                  <li><a class="dropdown-item" href="staffdosen.html">Staff Dosen</a></li>
+                </ul>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link text-white active" href="#">Kegiatan</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link text-white" href="prestasi.html">Prestasi</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link text-white" href="#footer">Hubungi Kami</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- The End of Navbar -->
+ 
+        <!--  The Start of Kegiatan Himasti -->
+    <div id="container-kegiatan" class="row">
+        <div class="col-sm-2 mx-auto">
+            <ul id="side-nav" class="nav flex-column nav-pills">
+                <h3>Divisi Himasti</h3>
+                <li id="side-navbar"> <a href="#" class="btn  btn-lg active aktif text-light rounded" role="button" >Semua</a></li>
+                <li id="side-navbar"> <a href="#" class="btn btn-lg text-dark bg-light" role="button" >Pendidikan</a></li>
+                <li id="side-navbar"><a href="#" class="btn  btn-lg text-dark bg-light" role="button" >Ristek</a></li>
+                <li id="side-navbar"><a href="#" class="btn btn-lg text-dark bg-light" role="button" >Humas</a></li>
+            </ul>    
+        </div>
+        <div class="col-sm-9 offset-1 ps-2 mx-auto">
+            <div class="container">
+                <div class="row height d-flex">
+                    <div class="active-cyan-4 form-group has-search col-md-12 col-sm-12">
+                        <div class="search">
+                            <div class="search"> <input type="text" class="form-control search" placeholder="Cari Kegiatan...">
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <div class="card mb-5 kegiatan-card">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./img/kegiatan/hcc.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <a class="btn bg-info pend" href="#" role="button">Ristek</a>
+                            <p class="desc">
+                                <span id="judul-kegiatan" class="card-title d-md-block">Himasti Coding Challenge</span>
+                                    Bertujuan untuk Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora laboriosam labore suscipit eius aut praesentium. Lorem ipsum dolor sit amet Lorem ipsum dolor sit Lorem ipsum, dolor sit amet consectetur adipisicing...
+                            </p>
+                            <a class="btn btn-sel" href="#" role="button">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-5 kegiatan-card">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./img/kegiatan/sharing-knowledge.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <a class="btn bg-warning pend" href="#" role="button">Humas</a>
+                            <p class="desc">
+                                <span id="judul-kegiatan" class="card-title d-md-block">Sharing Knowledge</span>
+                                    Bertujuan untuk Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora laboriosam labore suscipit eius aut praesentium. Lorem ipsum dolor sit amet Lorem ipsum dolor sit Lorem ipsum, dolor sit amet consectetur adipisicing...
+                            </p>
+                            <a class="btn btn-sel" href="#" role="button">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-5 kegiatan-card">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./img/kegiatan/ui-ux1.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <a class="btn bg-success pend" href="#" role="button">Pendidikan</a>
+                            <p class="desc">
+                                <span id="judul-kegiatan" class="card-title d-md-block">UI/UX Class</span>
+                                    Bertujuan untuk Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora laboriosam labore suscipit eius aut praesentium. Lorem ipsum dolor sit amet Lorem ipsum dolor sit Lorem ipsum, dolor sit amet consectetur adipisicing...
+                            </p>
+                            <a class="btn btn-sel" href="#" role="button">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-5 kegiatan-card">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./img/kegiatan/hcc.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <a class="btn bg-info pend" href="#" role="button">Ristek</a>
+                            <p class="desc">
+                                <span id="judul-kegiatan" class="card-title d-md-block">Himasti Coding Challenge</span>
+                                    Bertujuan untuk Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora laboriosam labore suscipit eius aut praesentium. Lorem ipsum dolor sit amet Lorem ipsum dolor sit Lorem ipsum, dolor sit amet consectetur adipisicing...
+                            </p>
+                            <a class="btn btn-sel" href="#" role="button">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>   
+    </div>   
+    <!-- The end of Kegiatan Himasti -->
+
+    <!-- The START OF FOOTER -->
+    <section id="footer" class="footer mt-5">
+        <div class="container pt-5 pb-5 d-flex justify-content-between">
+        <div class="footer-story col-md-4 mb-3">
+            <h5>Tentang Informatika</h5>
+            <p class="mt-4">
+            Program Studi S1 Teknik Informatika merupakan salah satu dari 4 (empat) program studi di bawah Fakultas Teknik Informatika dan Elektro di Institut Teknologi Del. Program studi ini dibentu “ Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Nunc vulputate quam vitae purus efficitur pulvinar id a lectus. Phasellus at magna
+            </p>
+        </div>
+        <div class="footer-hubungi-kami col-md-3 mb-3">
+            <h5>Hubungi Kami</h5>
+            <div class="d-flex justify-content-start mt-4">
+            <span class="material-icons me-3"> location_on </span>
+            <p>Jl. P.I. Del, Sitoluama, Lagu Boti, Kabupaten Toba Samosir, Sumatera Utara</p>
+            </div>
+            <div class="d-flex justify-content-start">
+            <span class="material-icons me-3"> email</span>
+            <p>Informatika@del.ac.id</p>
+            </div>
+            <div class="d-flex justify-content-start">
+            <span class="material-icons me-3"> call</span>
+            <p>+62822988XXXXX</p>
+            </div>
+        </div>
+        <div class="footer-sosmed col-md-3 mb-3">
+            <h5>Sosial Media</h5>
+            <div class="icon-sosial-media d-flex mt-4">
+            <a class="text-white" href="https://www.facebook.com/Institut.Teknologi.Del/" target="_blank"><i class="bx bxl-facebook-square me-3"></i></a>
+            <a class="text-white" href="https://www.youtube.com/channel/UCi_VutHsvtyaJQ84s9xdSDg" target="_blank"> <i class="bx bxl-youtube me-3"></i> </a>
+            <a class="text-white" href="https://www.instagram.com/it.del/?hl=id" target="_blank"><i class="bx bxl-instagram"></i> </a>
+            </div>
+        </div>
+        </div>
+        <div class="footer-copyright">
+        <div class="container d-flex justify-content-center align-items-center p-5">CopyRight <span class="material-icons me-2 ms-2"> copyright </span> 2021 Program Studi Informatika. All Rights Reserved.</div>
+        </div>
+    </section>
+  <!-- The END OF FOOTER -->
+
+
+</body>
+</html>

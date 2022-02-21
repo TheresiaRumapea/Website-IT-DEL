@@ -1,7 +1,4 @@
-# Website-IT-DEL
-
-Proyek UTS Pengembangan Aplikasi Berbasis Website
-
+# Kel13_WebsiteProdi_IT_Del
 Nama Kelompok:
 11S19049	Albet Nainggolan
 11S19008	Rewina Pakpahan
