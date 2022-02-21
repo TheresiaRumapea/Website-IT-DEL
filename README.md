@@ -12,6 +12,7 @@ Repositori : https://github.com/albetmatthew/Kel13_WebsiteProdi_IT_Del
 
 Spesifikasi Hardware Laptop
 • 8GB RAM
+
 • Intel I5 2.3 Hz
 • 256GB SSD Storage
 • Intel HD Graphics 2GB
